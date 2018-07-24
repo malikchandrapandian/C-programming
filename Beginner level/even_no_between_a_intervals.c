@@ -1,7 +1,6 @@
 #include<stdio.h> 
 int main()
 {
-
            int f1,f2,rem,i;
            scanf("%d",&f1);
            scanf("%d",&f2);
