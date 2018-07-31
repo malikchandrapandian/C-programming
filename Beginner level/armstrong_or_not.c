@@ -1,5 +1,5 @@
 #include <stdio.h>
-void main()
+int main()
 {
     int number, originalNumber, remainder, result = 0;
     scanf("%d", &number);
@@ -14,4 +14,5 @@ void main()
         printf("%d is an Armstrong number.",number);
     else
         printf("%d is not an Armstrong number.",number);
+    return 0;
 }
